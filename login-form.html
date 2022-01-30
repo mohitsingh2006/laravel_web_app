@@ -1,16 +1,50 @@
-<main class="form-signin">
-  <form>
-    <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
-    <div class="form-floating">
-      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-      <label for="floatingInput">Email address</label>
+<div class="h-100 d-flex min-vh-100 align-items-center flex-row">
+        <div class="container">
+            <h2 class="text-center mb-5 text-uppercase h2">Laravel Web Application</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card-group">
+                        <div class="card col-md-7 p-4 mb-0">
+                            <div class="card-body">
+                                <h1>Login</h1>
+                                <p class="text-medium-emphasis">Sign In to your account</p>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                                        </svg>
+                                    </span>
+                                    <input type="text" class="form-control" placeholder="Enter Username">
+                                </div>
+
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
+                                            <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"></path>
+                                        </svg>
+                                    </span>
+                                    <input type="password" class="form-control" placeholder="Enter Password" >
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-6">
+                                      <button class="btn btn-dark px-4" type="button">Login</button>
+                                    </div>
+                                    <div class="col-6 text-end">
+                                      <button class="btn btn-link px-0" type="button">Forgot password?</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="card col-md-5 text-white custom-gradient py-5 ">
+                            <div class="card-body text-center d-flex flex-column justify-content-center">
+                                <h4>Hi there, Welcome!</h4>
+                                <p>You have found this secret access door.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="form-floating">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-      <label for="floatingPassword">Password</label>
-    </div>
-    
-    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
-    <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
-  </form>
-</main>
